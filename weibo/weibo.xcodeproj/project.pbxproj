@@ -15,6 +15,7 @@
 		264762E61D6DEAB40085C048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264762E41D6DEAB40085C048 /* LaunchScreen.storyboard */; };
 		264762F11D6DEAB40085C048 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264762F01D6DEAB40085C048 /* weiboTests.m */; };
 		264762FC1D6DEAB40085C048 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264762FB1D6DEAB40085C048 /* weiboUITests.m */; };
+		2647630B1D6DEC610085C048 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 2647630A1D6DEC610085C048 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		264762F71D6DEAB40085C048 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		264762FB1D6DEAB40085C048 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		264762FD1D6DEAB40085C048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264763091D6DEC610085C048 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		2647630A1D6DEC610085C048 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				264762DA1D6DEAB40085C048 /* AppDelegate.m */,
 				264762DC1D6DEAB40085C048 /* ViewController.h */,
 				264762DD1D6DEAB40085C048 /* ViewController.m */,
+				264763091D6DEC610085C048 /* Car.h */,
+				2647630A1D6DEC610085C048 /* Car.m */,
 				264762DF1D6DEAB40085C048 /* Main.storyboard */,
 				264762E21D6DEAB40085C048 /* Assets.xcassets */,
 				264762E41D6DEAB40085C048 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				264762DE1D6DEAB40085C048 /* ViewController.m in Sources */,
 				264762DB1D6DEAB40085C048 /* AppDelegate.m in Sources */,
+				2647630B1D6DEC610085C048 /* Car.m in Sources */,
 				264762D81D6DEAB40085C048 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
